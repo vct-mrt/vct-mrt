@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/vct-mrt">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Victor+Martinetti;Full-Stack+%26+Software+Developer;Bienvenue+sur+mon+profil+GitHub+!;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+vct-mrt;Full-Stack+%26+Software+Developer;Bienvenue+sur+mon+profil+GitHub+!;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -16,7 +16,7 @@
 
 <br/>
 
-## 💻 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -40,12 +40,19 @@
 
 <br/>
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vct-mrt/vct-mrt/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vct-mrt/vct-mrt/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/vct-mrt/vct-mrt/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
 ## GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=vct-mrt&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Victor's GitHub stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vct-mrt&theme=tokyonight&hide_border=true&layout=compact" alt="Top languages" width="49%" />
 
 <br/>
 
@@ -59,31 +66,10 @@
 
 <br/>
 
-## Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vct-mrt/vct-mrt/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vct-mrt/vct-mrt/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/vct-mrt/vct-mrt/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
 
 <br/>
 
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=vct-mrt&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub trophies" />
-
-</div>
-
-<br/>
-
-## 🌐 Socials
+## Socials
 
 <div align="center">
 
@@ -91,7 +77,7 @@
 
 </div>
 
-## 💰 You can help me by Donating
+## You can help me by Donating
 
 <div align="center">
 
