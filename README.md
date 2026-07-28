@@ -56,8 +56,6 @@
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=vct-mrt&theme=tokyonight&hide_border=true" alt="GitHub streak stats" width="97%" />
-
 <br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vct-mrt&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="97%" />
