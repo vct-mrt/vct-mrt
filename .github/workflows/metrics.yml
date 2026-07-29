@@ -1,0 +1,84 @@
+name: Generate GitHub metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Base stats card
+        uses: lowlighter/metrics@v3.34
+        with:
+          # Classic personal access token (scope: public_repo) stored as a repo secret.
+          # Create one at https://github.com/settings/tokens and add it under
+          # Settings > Secrets and variables > Actions > New repository secret > METRICS_TOKEN
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: vct-mrt
+          filename: metrics.base.svg
+          committer_branch: main
+          committer_message: "chore: update metrics.base.svg [Skip GitHub Action]"
+          # Drop the "metadata" footer section, it's noise on a profile card.
+          base: header, activity, community, repositories
+          plugin_lines: yes
+          extras_css: |
+            :root {
+              --color-canvas-default: #1a1b27 !important;
+              --color-canvas-subtle: #1f2335 !important;
+              --color-border-default: #292e42 !important;
+              --color-accent-fg: #58A6FF !important;
+              --color-accent-emphasis: #58A6FF !important;
+              --color-fg-default: #c0caf5 !important;
+              --color-fg-muted: #a9b1d6 !important;
+            }
+
+      - name: Top languages plugin
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: vct-mrt
+          filename: metrics.plugin.languages.svg
+          committer_branch: main
+          committer_message: "chore: update metrics.plugin.languages.svg [Skip GitHub Action]"
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+          extras_css: |
+            :root {
+              --color-canvas-default: #1a1b27 !important;
+              --color-canvas-subtle: #1f2335 !important;
+              --color-border-default: #292e42 !important;
+              --color-accent-fg: #58A6FF !important;
+              --color-accent-emphasis: #58A6FF !important;
+              --color-fg-default: #c0caf5 !important;
+              --color-fg-muted: #a9b1d6 !important;
+            }
+
+      - name: Isometric calendar plugin
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: vct-mrt
+          filename: metrics.plugin.isocalendar.svg
+          committer_branch: main
+          committer_message: "chore: update metrics.plugin.isocalendar.svg [Skip GitHub Action]"
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          extras_css: |
+            :root {
+              --color-canvas-default: #1a1b27 !important;
+              --color-canvas-subtle: #1f2335 !important;
+              --color-border-default: #292e42 !important;
+              --color-accent-fg: #58A6FF !important;
+              --color-accent-emphasis: #58A6FF !important;
+              --color-fg-default: #c0caf5 !important;
+              --color-fg-muted: #a9b1d6 !important;
+            }

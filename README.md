@@ -6,7 +6,7 @@
 
 <br/>
 
-<img src="https://avatars.githubusercontent.com/vct-mrt?size=200" width="160" alt="Victor Martinetti" />
+<img src="https://avatars.githubusercontent.com/vct-mrt?size=200" width="160" alt="vct-mrt" />
 
 <br/>
 
@@ -40,6 +40,8 @@
 
 <br/>
 
+## Contribution Snake
+
 <div align="center">
 
 <picture>
@@ -54,16 +56,13 @@
 
 <div align="center">
 
-<br/>
+<img src="./metrics.base.svg" alt="GitHub metrics overview" width="97%" />
 
-<br/>
+<img src="./metrics.plugin.languages.svg" alt="Most used languages" width="97%" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vct-mrt&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" width="97%" />
+<img src="./metrics.plugin.isocalendar.svg" alt="Contribution isometric calendar" width="97%" />
 
 </div>
-
-<br/>
-
 
 <br/>
 
