@@ -39,9 +39,6 @@
 </div>
 
 <br/>
-
-## Contribution Snake
-
 <div align="center">
 
 <picture>
@@ -51,20 +48,6 @@
 </picture>
 
 </div>
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="./metrics.base.svg" alt="GitHub metrics overview" width="97%" />
-
-<img src="./metrics.plugin.languages.svg" alt="Most used languages" width="97%" />
-
-<img src="./metrics.plugin.isocalendar.svg" alt="Contribution isometric calendar" width="97%" />
-
-</div>
-
-<br/>
 
 ## Socials
 
